@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Testimonials | CMDev · Mickey Digital Works</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <header class="site-header">
+    <nav class="navbar container">
+      <div class="logo">Mickey<span>Digital Works</span></div>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="skills.html">Skills</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="testimonials.html" class="active">Testimonials</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="page-header container reveal">
+      <h1>Testimonials</h1>
+      <p class="section-subtitle">
+        Feedback from people who have seen my work, collaborated with me, or
+        experienced the design quality of <strong>Mickey Digital Works</strong>.
+      </p>
+    </section>
+
+    <section class="section container reveal">
+      <div class="grid testimonials-grid">
+
+        <article class="card testimonial-card reveal">
+          <p class="testimonial-text">
+            “I absolutely LOVE my new website for Sharon's Crafty Life!  From start to finish, the process was smooth and stress-free.  Chris captured my style perfectly and made everything look so polished and professional.  I'm so thankful for his talent and support!”
+          </p>
+          <p class="testimonial-name">-Sharon</p>
+           <div class="testimonial-badge">
+    <span class="badge verified">✔ Verified Client</span>
+  </div>
+          <p class="testimonial-role">-Sharon's Crafty Life</p>
+          <a
+            href="https://www.sharonscraftylife.com"
+            target="_blank"
+            rel="noopener"
+            class="project-link"
+          >
+            View Live Site →
+          </a>
+        </article>
+
+        <article class="card testimonial-card reveal">
+          <p class="testimonial-text">
+           "Text"
+          </p>
+          <p class="testimonial-name">-Name</p>
+          <p class="testimonial-role">-Company</p>
+        </article>
+
+        <article class="card testimonial-card reveal">
+          <p class="testimonial-text">
+            “Text"
+          </p>
+          <p class="testimonial-name">-Name</p>
+          <p class="testimonial-role">-Company</p>
+        </article>
+
+      </div>
+
+    </section>
+  </main>
+
+  <section class="section container reveal">
+  <div class="section-header">
+    <h2>Leave a Testimonial</h2>
+  </div>
+
+  <form
+    action="https://formspree.io/f/mkgdzdwg"
+    method="POST"
+    class="contact-form"
+  >
+    <div class="form-group">
+      <label for="name">Your Name *</label>
+      <input type="text" name="name" required />
+    </div>
+
+    <div class="form-group">
+      <label for="company">Company / Project</label>
+      <input type="text" name="company" />
+    </div>
+
+    <div class="form-group">
+      <label for="testimonial">Testimonial *</label>
+      <textarea
+        name="testimonial"
+        rows="4"
+        required
+        placeholder="What was it like working with me?"
+      ></textarea>
+    </div>
+
+    <div class="button-center">
+      <button type="submit" class="btn primary">
+        Submit Testimonial
+      </button>
+    </div>
+  </form>
+</section>
+
+  <footer class="site-footer">
+    <div class="container footer-content">
+      <p>© <span id="year"></span> Mickey Digital Works. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

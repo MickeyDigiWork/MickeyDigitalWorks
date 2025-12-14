@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact | CMDev · Mickey Digital Works</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <!-- Header -->
+  <header class="site-header">
+    <nav class="navbar container">
+      <div class="logo">Mickey<span>Digital Works</span></div>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="skills.html">Skills</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="testimonials.html">Testimonials</a></li>
+        <li><a href="contact.html" class="active">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <!-- Page Header -->
+    <section class="page-header container reveal">
+      <h1>Contact Me</h1>
+      <p class="section-subtitle">
+        Have a question or project idea? Send me a message and I’ll get back to you.
+      </p>
+    </section>
+
+    <!-- Contact Form -->
+    <section class="section container reveal">
+      <form
+        action="https://formspree.io/f/mkgdzdwg"
+        method="POST"
+        class="contact-form"
+        id="contactForm"
+      >
+        <div class="form-group">
+          <label for="name">Your Name *</label>
+          <input
+            type="text"
+            name="name"
+            id="name"
+            placeholder="John Doe"
+            required
+          />
+        </div>
+
+        <div class="form-group">
+          <label for="email">Email Address *</label>
+          <input
+            type="email"
+            name="email"
+            id="email"
+            placeholder="you@example.com"
+            required
+          />
+        </div>
+
+        <div class="form-group">
+          <label for="message">Your Message *</label>
+          <textarea
+            name="message"
+            id="message"
+            rows="5"
+            placeholder="Tell me about your project..."
+            required
+          ></textarea>
+        </div>
+
+        <button type="submit" class="btn primary">Send Message</button>
+
+        <p id="formStatus" class="form-status"></p>
+      </form>
+
+      <div class="contact-extra">
+        <p><strong>Business:</strong> Mickey Digital Works</p>
+        <p><strong>Location:</strong> Buena Vista, VA</p>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+
+    <section class="section container reveal cta">
+      <h2>I’m currently accepting new clients.
+Contact me for a free consultation.</h2>
+<section>
+  
+ <div class="share-wrapper reveal">
+  <button id="shareBtn" class="btn outline">
+    Share This Site
+  </button>
+</div>
+
+
+    <div class="container footer-content">
+      <p>© <span id="year"></span> Mickey Digital Works. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
