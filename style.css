@@ -171,6 +171,17 @@ a {
   border: 1px solid rgba(59, 130, 246, 0.45);
 }
 
+/* Page hero (non-home pages) */
+.page-hero {
+  background:
+    linear-gradient(135deg, rgba(15, 23, 42, 0.85), rgba(15, 23, 42, 0.55)),
+    radial-gradient(circle at top right, rgba(59, 130, 246, 0.25), transparent),
+    radial-gradient(circle at bottom left, rgba(30, 64, 175, 0.3), transparent);
+  padding-top: 3.5rem;
+  padding-bottom: 3rem;
+  border-radius: 0 0 32px 32px;
+}
+
 /* Hero visual */
 .hero-visual {
   display: flex;
